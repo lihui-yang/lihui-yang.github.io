@@ -6,29 +6,22 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src = "main.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header">
-				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-				<a href="#Home" class="navbar-brand"><i class="fas fa-carrot"></i>Lihui Yang</a>
-			</div>
-			<div class="collapse navbar-collapse" id="bs-nav-demo">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#Contact" onclick = "link();">Contact</a></li>
-					<li><a href="https://lihui-yang.github.io/Test-Your-Personality/">Personal Projects</a></li>
-				</ul>
-			</div>
-		</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="https://lihui-yang.github.io/">Lihui Yang</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+   		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    		<div class="navbar-nav">
+      		<a class="nav-item nav-link active" href="https://lihui-yang.github.io/">Home <span class="sr-only">(current)</span></a>
+      		<a class="nav-item nav-link" href="#Contact">Contact</a>
+      		<a class="nav-item nav-link" href="resume.pdf">Resume</a>
+      		<a class="nav-item nav-link" href="#project">Projects</a>
+    		</div>
+  		</div>
 	</nav>
 	<div class="backImg">
 		<div class="profile">
@@ -42,20 +35,43 @@
 			<div class="profileFonts">
 				<a href="https://www.linkedin.com/in/lihui-emma-yang-6b460a156/"><i class="fa fa-linkedin-square fa-2x"></i></a>
 
-				<a href="https://www.instagram.com/yangtianshen/"><i class="fa fa-instagram fa-2x"></i></a>
+				<!-- <a href="https://www.instagram.com/yangtianshen/"><i class="fa fa-instagram fa-2x"></i></a> -->
 
-				<a href="#Contact" onclick = "link();"><i class="fa fa-google fa-2x"></i></a>
+				<a href="#Contact"><i class="fa fa-google fa-2x"></i></a>
 
 				<a href="https://github.com/lihui-yang"><i class="fa fa-github fa-2x"></i></a>
 			</div>
 		</div>
 	</div>
+	<div id = "project" class="container-fluid">
+		<div class="row">
+		<div class="card col-md-5">
+  			<img class="card-img-top" src="https://media2.s-nbcnews.com/j/newscms/2018_39/2582131/180928-differing-personality-mc-1541_82da49880ddb600e0b7d668fd1ab953b.fit-2000w.JPG" alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">FoodFinding</h5>
+    			<p class="card-text">Simple Web App to test The Big-Five Personality by given a Self-Questionnaire style.</p>
+    			<a href="#" class="btn btn-primary">Go</a>
+    		</div>
+  		</div>
+
+  		<div class="card col-md-5">
+  			<img class="card-img-top" src="https://media2.s-nbcnews.com/j/newscms/2018_39/2582131/180928-differing-personality-mc-1541_82da49880ddb600e0b7d668fd1ab953b.fit-2000w.JPG" alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">Test Your Personality Application</h5>
+    			<p class="card-text">Simple Web App to test The Big-Five Personality by given a Self-Questionnaire style.</p>
+    			<a href="https://lihui-yang.github.io/Test-Your-Personality/" class="btn btn-primary">Go</a>
+  			</div>
+		</div>
+	</div>
+</div>
+	<div class="container-fluid">
 	<div id = "Contact">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-sm-2">
 			<div id="content">
-				<p>Email-Address: yanglihuiemma@gmail.com</p>
+				<p><i class="fa fa-envelope envelope"></i>yanglihuiemma@gmail.com</p>
 			</div>
 		</div>
+	</div>
 </div>
 </body>
 </html>
