@@ -69,6 +69,12 @@ img{
 	margin-right: 30px;
 }
 
+#my_button { 
+	justify-content: center; 
+/*	width: 144px;*/
+	display: flex;
+}
+
 
 
 i{
