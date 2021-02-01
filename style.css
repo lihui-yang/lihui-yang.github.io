@@ -50,7 +50,7 @@ img{
 #Contact{
 	font-size: 15px;
 	text-align: center;
-	margin-top:10px;
+	margin-top:20px;
     bottom: 0;
 }
 
@@ -64,11 +64,16 @@ img{
 	margin-top: 10px;
 }
 
+.card-text{
+	height: 6rem;
+}
+
+
 #my_button { 
 	justify-content: center; 
 	display: flex;
+	position: flex;
 }
-
 
 
 i{
