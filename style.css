@@ -67,6 +67,7 @@ img{
 .card{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	padding: 25px;
 }
 
 .card-columns {
