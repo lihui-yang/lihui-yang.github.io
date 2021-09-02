@@ -7,7 +7,8 @@
 .backImg{
 	width: 100%;
 	height: 100vh;
-	background-image: url("2.jpeg");
+	/*background-image: url("2.jpeg");*/
+	background-image: url("https://images.unsplash.com/photo-1611575249816-73a3c22c6fc9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80");
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -73,6 +74,18 @@ img{
 	justify-content: center; 
 	display: flex;
 	position: flex;
+	width: 30%;
+	order-radius: 12px;
+	font-size: 15px;
+	transition-duration: 0.4s;
+	background-color: white;
+  	color: black;
+  	border: 2px solid #809DBD;
+}
+
+#my_button:hover {
+  background-color: #809DBD;
+  color: white;
 }
 
 
