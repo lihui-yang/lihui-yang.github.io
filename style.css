@@ -72,8 +72,8 @@ img{
 
 #my_button { 
 	justify-content: center; 
-	display: flex;
-	position: flex;
+	/*display: flex;
+	position: flex;*/
 	width: 30%;
 	order-radius: 12px;
 	font-size: 15px;
