@@ -58,6 +58,16 @@ img{
 	height: 6rem;
 }
 
+hr {
+  width: 20%;
+  border: 0;
+  height: 4px !important;
+}
+
+#project{
+    margin-top: 100px;
+}
+
 .main-timeline {
     position: relative
 }
@@ -117,7 +127,7 @@ img{
 }
 
 .main-timeline .icon:after {
-    border: 2px solid #d0cbc2;
+  /*  border: 2px solid #ffffff;*/
     left: 3px
 }
 
@@ -145,7 +155,7 @@ img{
     position: absolute;
     top: 0;
     right: 10px;
-    bottom: 0
+    bottom: 0;
 }
 
 .main-timeline .date-outer {
@@ -178,7 +188,7 @@ img{
 }
 
 .main-timeline .date-outer:after {
-    border: 2px solid #d0cbc2;
+    /*border: 2px solid #d0cbc2;*/
     left: 6px
 }
 
@@ -205,7 +215,7 @@ img{
 
 .main-timeline .year {
     display: block;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     color: #232323;
     line-height: 36px
@@ -308,7 +318,7 @@ img{
 }
 
 #time{
-	margin-top: 50px;
+	margin-top: 150px;
 	margin-bottom: 30px;
 }
 
