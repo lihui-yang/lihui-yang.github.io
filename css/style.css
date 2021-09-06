@@ -67,7 +67,7 @@ img{
     display: block;
     width: 2px;
     height: 100%;
-    background: #c6c6c6;
+    background: #d0cbc2;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -331,6 +331,6 @@ img{
 
 
 i{
-	color: white;
+    color: white;
 	margin-right: 10px;
 }
