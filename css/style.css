@@ -23,10 +23,15 @@
 	border-radius: 10%;
 }
 
-img{
+.img{
 	height:200px;
 	border-radius: 70%;
 
+}
+
+.imgText{
+    height: 300px;
+    width: 300px;
 }
 
 .profileText{
@@ -121,9 +126,7 @@ hr {
 }
 
 .main-timeline .icon:before {
-    background: #fff;
-    border: 2px solid #809DBD;
-    left: -3px
+    
 }
 
 .main-timeline .icon:after {
