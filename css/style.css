@@ -59,6 +59,11 @@
 	margin-top: 10px;
 }
 
+.card-img-top{
+    height: 200px;
+    border-radius: 70%;
+}
+
 .card-text{
 	height: 6rem;
 }
