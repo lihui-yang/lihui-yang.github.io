@@ -18,13 +18,13 @@
 
 .profile{
 	width: 360px;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.05);
 	padding: 30px 0;
 	border-radius: 10%;
 }
 
 .img{
-	height:200px;
+	height:250px;
 	border-radius: 50%;
 
 }
@@ -99,7 +99,7 @@ hr {
     display: block;
     width: 2px;
     height: 100%;
-    background: #ada08c;;
+    background: #c7b99f;;
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -203,7 +203,7 @@ hr {
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #dacbae;;
+    border: 2px solid #c7b99f;;
     left: -6px
 }
 
