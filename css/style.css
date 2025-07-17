@@ -358,7 +358,8 @@ hr {
   transition: transform .2s;
 }
 .project-card:hover { transform: translateY(-5px); }
-.project-card img { width:100%; border-radius:6px; vertical-align: top;}
+.project-card img { width:100%;border-radius:6px; vertical-align: top;}
+.project-card iframe { width:100%;border-radius:6px; vertical-align: top;}
 .btn-1 {
   display:inline-block; background:#333; color:#fff;
   padding:.6rem 1.2rem; border-radius:6px;
