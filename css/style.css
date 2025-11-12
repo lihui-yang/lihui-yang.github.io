@@ -82,6 +82,29 @@
 	height: 6rem;
 }
 
+.highlight {
+    flex-direction: column; /* 上下排列标题和徽章 */
+    align-items: flex-start; /* 左对齐，如果想居中改为 center */
+    gap: 10px; /* 标题和徽章之间间距 */
+}
+
+
+.skills-badges {
+    display: flex;
+    flex-wrap: wrap; /* 徽章换行 */
+    gap: 6px;        /* 水平间距 */
+}
+
+.skills-badges span {
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #f7f3ee;
+    color: #6b6458;
+    font-size: 0.85rem;
+    border: 1px solid #e5ddd3;
+}
+
+
 hr {
   width: 20%;
   border: 0;
