@@ -1,296 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Lihui's Page</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lihui Yang | Personal Site</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
 </head>
 <body>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  		<a class="navbar-brand" href="https://lihui-yang.github.io/">L.Y.</a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    	<span class="navbar-toggler-icon"></span>
-  		</button>
-  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    		<div class="navbar-nav">
-      		<a class="nav-item nav-link" href="resume.pdf" target="_blank">Resume</a>
-      		<a class="nav-item nav-link" href="#project">Projects</a>
-      		<a class="nav-item nav-link" href="#time">Timeline</a>
-  		    </div>
-  		</div>
-	</nav>
-	<div class="backImg">
-		<div class="profile">
-			<img src="pic/1.png" class="profile-img">
-			<div class="profileText">
-				<h2><font color='#ffffff'>Lihui Yang</font></h2>
-				<h5><font color='#ffffff'>CS 💻 & Psyc 🧠 </font></h5>
-				<h6><font color='#ffffff'>IT Support | eCom & Digital Operations</font></h6>
+	<header class="site-header">
+		<nav class="nav-wrap">
+			<a class="logo" href="/">LY</a>
+			<button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">
+				<span></span><span></span><span></span>
+			</button>
+			<ul class="nav-menu">
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#time">Timeline</a></li>
+				<li><a href="resume.pdf" target="_blank">Resume</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="hero-inner">
+				<div class="hero-text">
+					<h1 class="hero-title">Lihui Yang</h1>
+					<p class="hero-tagline">CS 💻 & Psycho 🧠</p>
+					<p class="hero-desc">IT Support | eCom & Digital Operations</p>
+					<p class="hero-about">Profile: CS and psychology background with strengths in IT support, eCommerce and digital operations, plus full‑stack development and data visualization experience.</p>
+					<div class="hero-actions">
+						<a href="resume.pdf" target="_blank" class="btn-primary">Resume</a>
+						<div class="hero-social">
+							<a href="https://www.linkedin.com/in/lihui-yang/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+							<a href="mailto:lihuiyang98@gmail.com" aria-label="Email"><i class="fa fa-envelope-square"></i></a>
+							<a href="https://github.com/lihui-yang" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="hero-photo">
+					<img src="pic/1.png" alt="Lihui Yang">
+				</div>
 			</div>
-			<div class="profileFonts">
-				<a href="https://www.linkedin.com/in/lihui-yang/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+		</section>
 
-				<a href="mailto:lihuiyang98@gmail.com"><i class="fa fa-envelope-square fa-2x"></i></a>
+		<section class="section section-projects" id="project">
+			<div class="container-narrow">
+				<h2 class="section-title">Projects</h2>
+				<div class="project-list">
+					<article class="project-item">
+						<div class="project-media">
+							<img src="pic/shopify.gif" alt="Shopify UI Optimization">
+						</div>
+						<div class="project-body">
+							<h3>Shopify UI Optimization</h3>
+							<p>UI optimization and iteration for a Shopify storefront: improved product presentation, refined interactions, and new features to boost engagement and conversion.</p>
+							<a href="https://observablehq.com/d/ee94b02d598c2734" class="link-arrow" target="_blank">Data visualization</a>
+						</div>
+					</article>
+					<article class="project-item">
+						<div class="project-media">
+							<iframe src="https://www.youtube.com/embed/RkAkTIlgr7I?si=yA_Naw55FCDL7tlH" title="Datadog Integration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="project-body">
+							<h3>Datadog Integration</h3>
+							<p>Integrated Datadog into an Ionic mobile app with authentication to monitor website and app performance and improve observability.</p>
+							<a href="pic/Datadog-PoC.pdf" class="link-arrow" target="_blank">PoC Report</a>
+						</div>
+					</article>
+					<article class="project-item">
+						<div class="project-media">
+							<iframe src="https://www.youtube.com/embed/PJPzn2yJpfY?si=sCTyyJkuUd5yogxZ" title="Kindle Page Optimization" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="project-body">
+							<h3>Kindle Page Optimization</h3>
+							<p>HCI study based on Big Five personality traits, designing Kindle iOS page layout and reading modes to deliver personalized reading experiences.</p>
+							<a href="https://www.figma.com/proto/VPzfIy1NIZP2F9r5CAOAyW/Shopify-Comparision?node-id=52-4&t=Q3BBuwCfRJ9ieMjv-1" class="link-arrow" target="_blank">View Prototype</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
 
-				<a href="https://github.com/lihui-yang" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+		<section class="section section-timeline" id="time">
+			<div class="container-narrow">
+				<h2 class="section-title">Timeline</h2>
+				<div class="timeline">
+					<article class="timeline-item">
+						<span class="timeline-date">Nov 2025 – Present</span>
+						<div class="timeline-body">
+							<span class="timeline-company">Aritzia</span>
+							<p><b>IT Service Specialist</b></p>
+							<div class="skills">
+								<span>Level One IT Support</span><span>IT Hardware Setup</span><span>ServiceNow</span><span>XStore</span><span>Active Directory</span><span>SCCM</span><span>Intune</span><span>Jamf</span>
+							</div>
+							<img src="pic/logo.png" alt="" width="150">
+						</div>
+					</article>
+					<article class="timeline-item">
+						<span class="timeline-date">2024.08 – 2025.06</span>
+						<div class="timeline-body">
+							<span class="timeline-company">Adore Vintage Tokyo Ltd.</span>
+							<p><b>Social Media Marketing & Content Creator</b></p>
+							<div class="skills">
+								<span>Shopify</span><span>Digital Marketing</span><span>Social Media</span><span>Google Ads</span><span>HTML</span><span>CSS</span><span>Video Editing</span><span>Customer Service</span>
+							</div>
+							<img src="pic/Adore.png" alt="" width="180">
+						</div>
+					</article>
+					<article class="timeline-item">
+						<span class="timeline-date">2022.02 – 2023.10</span>
+						<div class="timeline-body">
+							<span class="timeline-company">Infosys Limited</span>
+							<p><b>Associate</b></p>
+							<div class="skills">
+								<span>Java</span><span>SQL</span><span>Spring Boot</span><span>Angular</span><span>Ionic</span><span>Node.js</span><span>Android Studio</span><span>Datadog</span><span>CI/CD</span><span>Program Coordination</span>
+							</div>
+							<img src="pic/info.png" class="box" alt=""><img src="pic/PwC_Canada.png" class="box" alt="">
+						</div>
+					</article>
+					<article class="timeline-item timeline-item-edu">
+						<span class="timeline-date">2022.01</span>
+						<div class="timeline-body">
+							<span class="timeline-company">University of Victoria</span>
+							<p class="timeline-desc">BSc. Computer Science & Psychology Combined Major</p>
+							<img src="pic/UVic.png" alt="" width="150">
+						</div>
+					</article>
+					<article class="timeline-item">
+						<span class="timeline-date">2021.05 – 2021.08</span>
+						<div class="timeline-body">
+							<span class="timeline-company">BC Ministry of Attorney General</span>
+							<p><b>IM/IT Generalist Co-op</b></p>
+							<div class="skills">
+								<span>ServiceNow</span><span>Jira</span><span>SQL</span><span>Manual Testing</span><span>Visio</span><span>Powershell</span>
+							</div>
+							<img src="pic/bc.png" alt="" width="300">
+						</div>
+					</article>
+					<article class="timeline-item">
+						<span class="timeline-date">2021.01 – 2021.05</span>
+						<div class="timeline-body">
+							<span class="timeline-company">University of Victoria</span>
+							<p><b>Research Assistant Co-op</b></p>
+							<div class="skills">
+								<span>Data Analysis</span><span>Bash</span><span>Bioinformatics</span><span>D3.js</span><span>Artemis</span><span>ACT Tool</span>
+							</div>
+							<img src="pic/UCM.png" alt="" width="150">
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="footer-inner">
+			<p>© <span id="year"></span> Lihui Yang</p>
+			<div class="footer-links">
+				<a href="https://www.linkedin.com/in/lihui-yang/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
+				<a href="mailto:lihuiyang98@gmail.com" aria-label="Email"><i class="fa fa-envelope-square"></i></a>
+				<a href="https://github.com/lihui-yang" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github"></i></a>
 			</div>
 		</div>
-	</div>
-	
-<!-- 	<div id = "project" class="card-column">
-		<div class="container">
-			<div class="projects-title text-center">
-                <h2 class="display-6">Projects</h2>
-                <hr class="mx-auto">
-            </div>
-			<div class="row">
-				
-				<div class="col-12 col-sm-6">
-					<div class="card h-100" >
-						<a href="https://adorevintage.ca/">
-		    				<img class="card-img-top" src="pic/shopify.png" alt="Card image cap" style="width: 100%">
-		    			</a>
-		    			<div class="card-body">
-		      				<h4 class="card-title">Shopify Website Optimization</h5>
-		      				<p class="card-text">Updating and optimizing the Shopify website for a commercial store by improving product listings, enhancing the user interface, and integrating new features.</p>
-		    				
-		    			</div>
-		  			</div>
-				</div>
-				<div class="col-12 col-sm-6">
-					<div class="card h-100">
-		    			<iframe width=auto height=auto src="https://www.youtube.com/embed/RkAkTIlgr7I&ab" allowfullscreen></iframe>
-		    			<div class="card-body">
-		      				<h4 class="card-title">Datadog Integration</h5>
-		      				<p class="card-text">A sample Ionic framework mobile application with a login system, which is integrated with a cloud monitoring platform to monitor the performance of websites or mobile APPs.</p>
-		      				<a href="report1.pdf" target="_blank" class="btn"> PoC Report</a>
-		    			</div>
-		  			</div>
-				</div>
-				<div class="col-12 col-sm-6">
-					<div class="card h-100" >
-						<a href="https://lihui-yang.github.io/CSC497-ReviewSite/">
-    						<img class="card-img-top" src="pic/kindle.png" style="width: 100%" alt="Card image cap">
-    					</a>
-	    				<div class="card-body">
-	      					<h4 class="card-title">Personality Traits in HCI</h5>
-	    					<p class="card-text">An interdisciplinary project exploring the role of personality in HCI by adding Big-Five personality trait-based reading mode recommendations to the Kindle iOS platform.</p>
-    					</div>
-  					</div>
-				</div>
-			</div>
-			</div>
-  		</div>
-	</div> -->
+	</footer>
 
-	<div id="project" class="projects-grid">
-  		<div class="project-card" data-target="proj1">
-    		<img height="200px" src="pic/shopify.gif">
-            <P> </P>
-            <h4>Shopify Optimization</h4>
-            <p>Updating and Optimizing a Shopify website by refining product listings, enhancing UI, and adding new features.</p> <a href="https://observablehq.com/d/ee94b02d598c2734" class="btn-1" target="_blank">Data Visualization</a>
-  		</div>
-  		<div class="project-card" data-target="proj2">
-  			<iframe height="200px" = src="https://www.youtube.com/embed/RkAkTIlgr7I?si=yA_Naw55FCDL7tlH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <P> </P>
-    		<h4>Datadog Integration</h4><p>Ionic mobile app with a login system, integrated with a cloud platform for monitoring website and app performance.</p> 
-    		<a href="pic/Datadog-PoC.pdf" class="btn-1" target="_blank">PoC Report</a>
-  		</div>
-  		<div class="project-card" data-target="proj3">
-    		<iframe height="200px" src="https://www.youtube.com/embed/PJPzn2yJpfY?si=sCTyyJkuUd5yogxZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           <P> </P>
-            <h4>Personality Traits in HCI</h4>
-            <p>Explored personality-driven HCI by adding Big Five–based reading mode recommendations to the Kindle iOS app.</p> 
-    		<a href="https://www.figma.com/proto/VPzfIy1NIZP2F9r5CAOAyW/Shopify-Comparision?node-id=52-4&t=Q3BBuwCfRJ9ieMjv-1" class="btn-1" target="_blank">Try Prototype</a>
-  		</div>
-	</div>
-
-	<div id="time" class="container">
-		<div class="projects-title text-center">
-                <h2 class="display-6">📅</h2>
-                <hr class="mx-auto">
-            </div>
-		<div class="row">
-    		<div class="main-timeline">
-                <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">Nov. 2025-</span>
-                                <br>
-                                <span class="month"> Present</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h5 class="title">IT Service Specialist</h5>
-                           <div class="highlights">
-                            <div class="skills-badges">
-  								<span>Level One IT Support</span>
-  								<span>IT Hardware Setup</span>
-  								<span>ServiceNow</span>
-  								<span>XStore</span>
-  								<span>Microsoft Active Directory</span>
-  								<span>SCCM</span>
-  								<span>Intune</span>
-  								<span>Jamf</span>
-  							</div>
-  						</div>
-                            <div>
-                                <img src="pic/logo.png" width="200">
-                            </div>
-                    </div>
-                </div>
-                <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">Aug. 2024-</span>
-                                <br>
-                                <span class="month"> June 2025</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h5 class="title">Social Media Marketing & Content Creator</h5>
-                        <div class="highlights">
-                            <div class="skills-badges">
-  								<span>Shopify</span>
-  								<span>Digital Marketing</span>
-  								<span>Social Media</span>
-  								<span>Google Ads</span>
-  								<span>HTML</span>
-  								<span>CSS</span>
-  								<span>Video Editing</span>
-  								<span>Customer Service</span>
-  							</div>
-  						</div>
-                            <div>
-                                <img src="pic/Adore.jpeg" width="200">
-                            </div>
-                    </div>
-            	</div>
-                <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">Feb. 2022-</span>
-                                <br>
-                                <span class="month"> Oct. 2023</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h5 class="title">Associate</h5>
-                        <div class="highlights">
-                        	<div class="skills-badges">
-  								<span>Java</span>
-  								<span>SQL</span>
-  								<span>Spring Boot</span>
-  								<span>Angular</span>
-  								<span>Ionic Framework</span>
-  								<span>Node.js</span>
-  								<span>Android Studio</span>
-  								<span>Datadog</span>
-  								<span>CI/CD</span>
-  								<span>Program Coordination</span>
-  							</div>
-  						</div>
-                            <div>
-                                <img src="pic/info.png" class="box"><img src="pic/PwC_Canada.png" class="box">
-                            </div>
-                    </div>
-            	</div>
-    			<div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                
-                                <span class="month">January</span>
-                                <span class="year">2022</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h5 class="title">University of Victoria</h5>
-                            <p class="description">
-                                BSc. Computer Science & Psychology Combined Major
-                            </p>
-                            <br>
-                            <div>
-                                <img src="pic/UVic.jpeg" width="200">
-                            </div>
-                            
-                    </div>
-            	</div>
-            	
-                <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">May-Aug.</span>
-                                <span class="year">2021</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h5 class="title">IM/IT Generalist Co-op</h5>
-                           <div class="highlights">
-                            <div class="skills-badges">
-                            	<span>ServiceNow</span>
-                            	<span>Jira</span>
-                            	<span>SQL</span>
-  								<span>Manual Testing</span>
-  								<span>Visio</span>
-  								<span>Powershell</span>
-  							</div>
-  						</div>
-                            <br>
-                            <div>
-                                <img src="pic/bc.png" width="400" >
-                            </div>
-                    </div>
-            	</div>
-            <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">Jan.-May</span>
-                                <span class="year">2021</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h5 class="title">Research Assistant Co-op</h5>
-                           <div class="highlights">
-                            <div class="skills-badges">
-  								<span>Data Analysis</span>
-  								<span>Bash</span>
-  								<span>Bioinformatics</span>
-  								<span>D3.js</span>
-  								<span>Artemis</span>
-  								<span>ACT Tool</span>
-  							</div>
-  						</div>
-                            <br>
-                            <div>
-                                <img src="pic/UCM.jpg" width="200">
-                            </div>
-            	   </div>
-            </div>
-
-        </div>
-</div>
-<script src=https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js></script>
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+		document.querySelector('.nav-toggle').addEventListener('click', function() {
+			this.classList.toggle('open');
+			document.querySelector('.nav-menu').classList.toggle('open');
+		});
+	</script>
 </body>
 </html>
